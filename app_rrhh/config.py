@@ -1,1 +1,0 @@
-ORIGIN_DB = "data/datos_prueba_tecnica.csv"
