@@ -1,1 +1,0 @@
-ORIGIN_DB = "Introduzca aquí la ruta de acceso a su archivo de datos csv"

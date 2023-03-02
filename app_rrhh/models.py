@@ -60,6 +60,13 @@ def listado_rrhh():
             empleados.append(lista[0:4])
             empleados.append(lista[6])
             empleados.append(lista[8])
-            
-            print(f"Id Empleado:'{lista[0]}',Nombre:'{lista[1]}',Apellidos:'{lista[2]}''{lista[3]}',Salario:'{lista[6]}',Empresa:'{lista[8]}'")
-        
+
+            id = lista[0]
+            nombre = lista[1]
+            apellido1 = lista[2]
+            apellido2 = lista[3]
+            salario = lista [6]
+            empresa = lista[8]
+
+            print(f"\nID: {id}\nNombre: {nombre} \nApellidos: {apellido1}, {apellido2} \nSalario:{salario}€ \nEmpresa: {empresa}")
+            #print(f"{id}\t {nombre}\t {apellido1} {apellido2}\t {salario}\t {empresa}")
